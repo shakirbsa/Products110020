@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nnucoin/public_html/webshilp.com/Products110025 #Add /<sub_folder> if required
+    - /bin/cp -r * $DEPLOYPATH
